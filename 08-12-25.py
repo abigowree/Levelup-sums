@@ -5,9 +5,8 @@ string="Jamun"
 for i in res:
     if i in string:
         count+=1
-    
-print(count)
 
+print(count)
 
 
 
@@ -38,6 +37,7 @@ for rec in records:
         max_name = name
 
 print("Top Scorer:", max_name, max_mark)
+
 
 
 def highest(words):
